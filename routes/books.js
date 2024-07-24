@@ -59,8 +59,6 @@ udRoute.post('/api/:uid', function (req, res, next){
     });
 });
 
-wrRoute.use('/',funtion (req,res,next),{
-    //res.sendStatus(404);
-})
+
 
 module.exports = udRoute;
